@@ -1,0 +1,15 @@
+.left {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-grow: 1;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.text {
+    word-spacing: 10px;
+    max-width: 40%;
+    line-height: 23px;
+    vertical-align: text-top;
+}

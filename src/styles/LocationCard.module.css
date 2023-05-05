@@ -1,0 +1,58 @@
+.card {
+    position: relative;
+    min-width: 340px;
+    min-height: 479px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px rgb(184, 184, 184) solid;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    transition: 0.2s;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.img {
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.name {
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    position: absolute;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 10px 10px;
+}
+
+.price {
+    color: rgb(85, 85, 85);
+}
+
+.book {
+    color: rgb(37, 188, 243);
+}
+
+.card:hover {
+    border-color: gray;
+}
+
+.card:hover .img {
+    filter: saturate(1.3);
+}

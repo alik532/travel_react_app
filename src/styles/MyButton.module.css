@@ -1,0 +1,15 @@
+.myButton {
+    padding: 10px 20px;
+    background-color: #9F7464;
+    transition: .1s;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 1vw;
+    max-width: fit-content;
+    max-height: min-content;
+}
+
+.myButton:hover {
+    background-color: #9f7464d0;
+}

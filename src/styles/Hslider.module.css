@@ -1,0 +1,6 @@
+.slider {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    gap: 70px;
+}
